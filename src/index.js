@@ -1,7 +1,9 @@
-const a = 1;
-const x = 22.35;
+const app = require('./app');
+require('./database/database')
+const PORT = 3000;
+async function main(){
+    await app.listen(3000)
+    console.log('server on port', PORT)
+}
 
-console.log(a + x);
-
-console.log("hello");
-console.log("end");
+main();

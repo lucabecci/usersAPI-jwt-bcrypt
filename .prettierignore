@@ -1,5 +1,11 @@
 # Ignore artifacts:
+# folders
 build
 node_modules
-.huskyrc
 dist
+
+# archives
+package-json
+package-lock.json
+.eslintrc.js
+.prettierrc.json
